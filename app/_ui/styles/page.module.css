@@ -1,0 +1,29 @@
+.list {
+    all: unset;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    margin-inline: 3em;
+    margin-block: 3em;
+}
+
+.item {
+    all: unset;
+
+}
+
+.figure {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.figcaption {
+    all: unset;
+}
+
+.a {
+    font-size: 1.2em;
+    text-underline-position: under;
+}
