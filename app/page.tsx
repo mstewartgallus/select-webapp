@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 
 import styles from "./_ui/styles/page.module.css";
 
-const List = ({children}) => <ul role="list" className={styles.list}>{children}</ul>;
-const Item = ({children}) => <li role="listitem" className={styles.item}>{children}</li>;
-
 const data = [
     {
         name: 'Ten Things',
@@ -21,10 +18,10 @@ const data = [
 const IndexPage = () => <ul role="list" className={styles.list}>
     {
         data.map(({ name, href, icon }) =>
-            <li className={styles.item}>
+            <li key={name} className={styles.item}>
                 <a href={href} className={styles.a}>
                    <figure className={styles.figure}>
-                       <img src={icon} width={192} height={192} />
+                       <img alt="" src={icon} width={192} height={192} />
                        <figcaption className={styles.figcaption}>{name}</figcaption>
                    </figure>
                </a>
