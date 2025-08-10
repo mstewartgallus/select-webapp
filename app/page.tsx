@@ -9,9 +9,14 @@ const data = [
         icon: 'https://mstewartgallus.github.io/ten-things/icon/icon-192x192.png'
     },
     {
-        name: 'Editor',
+        name: 'Editor (WIP)',
         href: 'https://mstewartgallus.github.io/editor',
         icon: 'https://mstewartgallus.github.io/editor/icon/icon-192x192.png'
+    },
+    {
+        name: 'QR Code (WIP)',
+        href: 'https://mstewartgallus.github.io/qrcode',
+        icon: 'https://mstewartgallus.github.io/qrcode/icon/icon-192x192.png'
     }
 ];
 
