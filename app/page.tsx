@@ -17,6 +17,11 @@ const data = [
         name: 'QR Code (WIP)',
         href: 'https://mstewartgallus.github.io/qrcode',
         icon: 'https://mstewartgallus.github.io/qrcode/icon/icon-192x192.png'
+    },
+    {
+        name: 'Food Service (WIP)',
+        href: 'https://mstewartgallus.github.io/food-service',
+        icon: 'https://mstewartgallus.github.io/food-service/icon/icon-192x192.png'
     }
 ];
 
