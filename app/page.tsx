@@ -17,14 +17,14 @@ const demos = [
 
 const wip = [
     {
-        name: 'Editor (WIP)',
-        href: 'https://mstewartgallus.github.io/editor',
-        icon: 'https://mstewartgallus.github.io/editor/icon/icon-192x192.png'
+        name: 'Food Service',
+        href: 'https://molly-food-f95a2fbf1865.herokuapp.com/',
+        icon: 'https://molly-food-f95a2fbf1865.herokuapp.com/icon/icon-192x192.png'
     },
     {
-        name: 'Food Service (WIP)',
-        href: 'https://mstewartgallus.github.io/food-service',
-        icon: 'https://mstewartgallus.github.io/food-service/icon/icon-192x192.png'
+        name: 'Editor',
+        href: 'https://mstewartgallus.github.io/editor',
+        icon: 'https://mstewartgallus.github.io/editor/icon/icon-192x192.png'
     }
 ];
 
